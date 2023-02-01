@@ -40,13 +40,13 @@ function decision(playerChoice,computerChoice) {
     playerScore++;
     return `You Win! Paper beats Rock`}
     else if (computerChoice === "Rock" && playerChoice === "Scissors"){
-    playerScore++;
+    computerScore++;
     return `You loose! Rock beats Scissors`}
     else if (computerChoice === "Scissors" && playerChoice === "Paper"){
-    playerScore++;
+    computerScore++;
     return `You loose! Scissors beats Paper`}
     else if (computerChoice === "Paper" && playerChoice === "Rock"){
-    playerScore++;
+    computerScore++;
     return `You loose! Paper beats Rock`}
 
 }
