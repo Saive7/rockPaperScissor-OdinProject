@@ -50,7 +50,8 @@ function decision(playerChoice,computerChoice) {
     return `You loose! Paper beats Rock`}
 
 }
-let result= ()=> {
+console.log(`the Player Score : ${playerScore} and the Computer Score: ${computerScore} `);
+let result= (playerScore,computerScore)=> {
 
     if (playerScore>computerScore) {
         return `Congo!, You beat the computer and your score is ${playerScore}  `
